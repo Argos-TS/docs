@@ -154,7 +154,7 @@ Este tipo de trabajo permite efectuar las mismas operaciones que un [Trabajo con
 
 `Predefinido`
 
-Este tipo de trabajo está pensado para permitir a varios proveedores utilizar las funciones de traducción automática simultáneamente, compartiendo **en tiempo real** terminología y progreso de traducción del documento. 
+Este tipo de trabajo está pensado para permitir a varios proveedores utilizar las funciones de traducción automática simultáneamente, compartiendo **en tiempo real** terminología y progreso de traducción del documento.
 
 Para realizar la asignación de proveedores y sus cargas de trabajo, debe pulsarse el botón `+` del [Trabajo correspondiente](#supervision-mt-job-row). A diferencia de la [Supervisión MT](#supervision-mt), en este caso aparecerá el siguiente panel:
 
@@ -173,6 +173,21 @@ Inserta un nuevo fragmento a la lista y resetea las cargas de trabajo de la mane
 ##### Resetear selección
 
 Deshace la asignación de argas de trabajo que haya en ese momento y calcula el reparto más equitativo según el número de segmentos.
+
+#### Alineamiento
+
+`Predefinido`
+
+Este tipo de trabajo permite reaprovechar traducciones previas no efectuadas con Argos TMS para aligerar el peso de otra traducción derivada. La forma de proceder para aprovechar esta funcionalidad es:
+
+1. Dar de alta el proyecto con un trabajo de tipo [Alineamiento](#alineamiento) y a continuación un trabajo de tipo [Supervision MT](#supervision-mt). En el proyecto deben cargarse tanto los archivos de traducción previos como el documento que se quiera traducir. En total, deberá haber tres archivos:
+   - Documento antiguo en idioma de origen
+   - Documento antiguo en idioma de destino
+   - Documento que vayamos a traducir
+
+2. Trabajo de [Alineamiento](#alineamiento): Se seleccionan los archivos antiguos que ya están traducidos y se pulsa el botón `Alinear`. Pasados unos segundos nos mostrará el alineamiento de segmentos. Tenemos la posibilidad de corregir algo si lo vemos necesario. Una vez hayamos acabado esta comprobación, pulsamos [Cerrar Trabajo](referencia/trabajo.md#cerrar-trabajo).
+
+3. Trabajo de [Supervision MT](#supervision-mt): Seleccionamos el archivo a traducir como siempre y veremos cómo al crearse la traducción ya existe un porcentaje de segmentos que ya están rellenos fruto del alineamiento anterior. Cabe destacar que únicamente aparecerán pretraducidos los segmentos si la concordancia es del 100%.
 
 ### Fecha límite (Trabajo)
 
