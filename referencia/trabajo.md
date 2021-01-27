@@ -114,4 +114,4 @@ Mediante esta acción se guardarán los cambios que haya habido en el trabajo ac
 
 ## Cerrar trabajo
 
-Esta acción indicará al manager que el trabajo actual se ha finalizado por completo y permitirá que se activen los siguientes trabajos que hayan sido especificados en [Proyecto > Trabajos](proyecto.md#trabajos).
+Esta acción indicará al manager que el trabajo actual se ha finalizado por completo y permitirá que se activen los siguientes trabajos que hayan sido especificados en [Proyecto > Trabajos](referencia/proyecto.md#trabajos).
