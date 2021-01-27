@@ -112,7 +112,7 @@ lista desplegable de tipos de trabajo disponibles.
 > Por ejemplo, supongamos que se recibe del cliente un documento PDF con texto e imágenes a traducir y revisar. En ese caso, una lista de tareas coherente con el servicio que se va a prestar sería:
 >
 > 1. Adaptación de formato PDF a Word
-> 2. Supervisión MT
+> 2. Supervision MT
 > 3. Traducción de figuras
 > 4. Revisión del documento
 
@@ -122,7 +122,7 @@ Una vez se finalicen todas las tareas de todos los pares de idiomas, Argos TMS g
 
 Para añadir un nuevo trabajo, deben rellenarse los campos: [Tipo de trabajo](#tipo-de-trabajo), [Fecha límite del trabajo](#fecha-límite-del-trabajo) y [Pareja de Idiomas](#pareja-de-idiomas). Después debe pulsarse el botón `Añadir trabajo`. Esto añadirá una fila en la lista de trabajos de la siguiente forma:
 
-![Supervisión MT](../_media/supervision-mt.png ":id=supervision-mt-job-row")
+![Supervision MT](../_media/supervision-mt.png ":id=supervision-mt-job-row")
 
 En la fila están los campos:
 
@@ -137,14 +137,14 @@ Numeración automática que indica la posición cada trabajo.
 Breve descripción de la tarea que se va a desempeñar. Actualmente, existen varios tipos de trabajo:
 
 - Trabajos convencionales: Permiten únicamente labores de gestión.
-- Predefinidos: Tienen acceso a funciones especiales dentro de Argos TMS, como traducción automática o traducción colaborativa. Entre ellos están: [Supervisión MT](#supervisión-mt) y [MultiTraducción](#multitraducción).
+- Predefinidos: Tienen acceso a funciones especiales dentro de Argos TMS, como traducción automática o traducción colaborativa. Entre ellos están: [Supervision MT](#supervision-mt) y [MultiTraducción](#multitraducción).
 
 #### Trabajo convencional
 
 Este tipo de trabajo permite al proveedor descargar los archivos que haya subido el manager o hayan sido producidos en trabajos anteriores y subir los archivos que haya producido durante su labor correspondiente. Ejemplos de labores a realizar en este trabajo pueden ser: `Edición de figuras`, `Adaptación de formato`, `Mética de Calidad` o `Revisión`.
 Este tipo de trabajo no permite utilizar funciones relacionadas con traducción automática.
 
-#### Supervisión MT
+#### Supervision MT
 
 `Predefinido`
 
@@ -156,7 +156,7 @@ Este tipo de trabajo permite efectuar las mismas operaciones que un [Trabajo con
 
 Este tipo de trabajo está pensado para permitir a varios proveedores utilizar las funciones de traducción automática simultáneamente, compartiendo **en tiempo real** terminología y progreso de traducción del documento.
 
-Para realizar la asignación de proveedores y sus cargas de trabajo, debe pulsarse el botón `+` del [Trabajo correspondiente](#supervision-mt-job-row). A diferencia de la [Supervisión MT](#supervision-mt), en este caso aparecerá el siguiente panel:
+Para realizar la asignación de proveedores y sus cargas de trabajo, debe pulsarse el botón `+` del [Trabajo correspondiente](#supervision-mt-job-row). A diferencia de la [Supervision MT](#supervision-mt), en este caso aparecerá el siguiente panel:
 
 ![MultiTraducción](../_media/multitraduccion.png)
 
