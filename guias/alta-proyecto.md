@@ -58,33 +58,33 @@ Para dar de alta un trabajo, debes seleccionar el tipo de trabajo que
 deseas que Argos realice. Hay varios tipos de trabajo precargados:
 
 - **Supervisión MT**: si necesitas que tu proveedor de servicios
-    trabaje con una traducción realizada por Argos, esta opción genera
-    dicha traducción y la pone a disposición del proveedor para que
-    opere con ella desde la propia plataforma.
+  trabaje con una traducción realizada por Argos, esta opción genera
+  dicha traducción y la pone a disposición del proveedor para que
+  opere con ella desde la propia plataforma.
 
 - **Alineamiento**: si existe una traducción previa del texto que
-   deseas traducir con Argos, el sistema alineará dicha traducción con
-    la suya propia, de manera que aprovecharás las sinergias entre ambas
-    traducciones, eliminando inconsistencias e incorporando las partes
-    previamente traducidas que te interesen a la traducción realizada
-    por Argos, de manera que ahorrarás tiempo y recursos.
+  deseas traducir con Argos, el sistema alineará dicha traducción con
+  la suya propia, de manera que aprovecharás las sinergias entre ambas
+  traducciones, eliminando inconsistencias e incorporando las partes
+  previamente traducidas que te interesen a la traducción realizada
+  por Argos, de manera que ahorrarás tiempo y recursos.
 
 - **Multitraducción**: si necesitas que varios proveedores de
-    servicios trabajen en un mismo documento siumltáneamente, Argos
-    coordinará el trabajo de todos ellos desde la propia plataforma,
-    eliminando así todos los problemas organizativos habituales en este
-    tipo de proyectos compartidos.
+  servicios trabajen en un mismo documento siumltáneamente, Argos
+  coordinará el trabajo de todos ellos desde la propia plataforma,
+  eliminando así todos los problemas organizativos habituales en este
+  tipo de proyectos compartidos.
 
 - **Revisión**: si tu proyecto consiste únicamente en la revisión de
-    un trabajo ya ejecutado, esta opción simplifica el proceso,
-    automatizándolo en torno a esta fase final.
+  un trabajo ya ejecutado, esta opción simplifica el proceso,
+  automatizándolo en torno a esta fase final.
 
 - **Traducción**: si necesitas trabajar con un sistema diferente al de
-    Argos, mediante esta opción podrás asignar automáticamente tu texto
-    al sistema en cuestión, simplificando así el proceso de reenvío.
+  Argos, mediante esta opción podrás asignar automáticamente tu texto
+  al sistema en cuestión, simplificando así el proceso de reenvío.
 
-    Es posible añadir tipos de trabajo propios como puede ser el caso de
-    “Traducción de figuras”.
+  Es posible añadir tipos de trabajo propios como puede ser el caso de
+  “Traducción de figuras”.
 
 A la vista de lo anterior, para realizar una traducción básica con
 Argos, el tipo de trabajo que debes seleccionar es `Supervisión MT` y
